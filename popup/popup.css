@@ -17,8 +17,8 @@ body {
 }
 
 .qr-container h1 img.ushare-icon {
-    width: 28px;
-    transform: translateY(8px);
+    width: 24px;
+    transform: translateY(5px);
 }
 
 .qr-container h1 b {
