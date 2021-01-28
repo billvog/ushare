@@ -1,0 +1,14 @@
+{
+    "name": "uShare",
+    "description": "The simplest way to share a url anywhere.",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "icons": {
+        "128": "icons/128.png"
+    },
+    "browser_action": {
+        "default_title": "uShare",
+        "default_popup": "popup/popup.html"
+    },
+    "permissions": ["tabs"]
+}

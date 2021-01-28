@@ -1,0 +1,46 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: tomato;
+    user-select: none;
+    -moz-user-select: none;
+}
+
+.qr-container {
+    padding: 2px 6px;
+}
+
+.qr-container h1 {
+    margin-top: 0;
+    font-size: 16pt;
+    font-weight: 300;
+    color: whitesmoke;
+}
+
+.qr-container h1 img.ushare-icon {
+    width: 28px;
+    transform: translateY(8px);
+}
+
+.qr-container h1 b {
+    color: white;
+}
+
+.qr-container .status-message {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: whitesmoke;
+    background-color: slategrey;
+    border-radius: 10px;
+    padding: 4px 8px;
+}
+
+.qr-container #qr-code-image {
+    border: 10px solid white;
+    border-radius: 15px;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
